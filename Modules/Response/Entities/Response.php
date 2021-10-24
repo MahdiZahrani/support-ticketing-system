@@ -11,7 +11,7 @@ class Response implements ResponseInterface
      * @param $message
      * @return \Illuminate\Http\JsonResponse
      */
-    public function sendResponse($result, $message): \Illuminate\Http\JsonResponse
+    public function sendResponse($result, $message = ""): \Illuminate\Http\JsonResponse
    {
        $response = [
            'success' => true,

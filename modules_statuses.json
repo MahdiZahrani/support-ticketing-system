@@ -1,6 +1,5 @@
 {
-    "Auth": true,
     "Response": true,
-    "User": true,
-    "Ticketing": true
+    "Ticketing": true,
+    "User": true
 }
